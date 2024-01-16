@@ -1,3 +1,12 @@
 <!-- Views/Home/Index.cshtml -->
-<h1>Welcome to CVWebApp!</h1>
-<h2>https://dotnet.microsoft.com/en-us/live</h2>
+@* <h1>Welcome to CVWebApp!</h1> *@
+
+@{
+    ViewData["Title"] = "Welcome to CVWebApp";
+}
+
+<div class="text-center">
+    <h1 class="display-4"></h1>
+    <p>Community event <a href="https://dotnet.microsoft.com/en-us/live">Live Standup on 23</a>.</p>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
