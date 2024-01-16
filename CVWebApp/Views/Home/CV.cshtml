@@ -1,0 +1,21 @@
+<!-- Views/Home/CV.cshtml -->
+@model Models.SoftwareEngineer.SoftwareEngineer
+
+<h1>Curriculum Vitae</h1>
+<p>Name: @Model.Name</p>
+<p>Email: @Model.Email</p>
+<p>Phone: @Model.Phone</p>
+
+<h2>Skills:</h2>
+<ul>
+    @foreach (var skill in Model.Skills)
+    {
+        <li>@skill</li>
+    }
+</ul>
+
+<h2>Work Experience:</h2>
+<p>Company: @Model.WorkExperience.Company</p>
+<p>Position: @Model.WorkExperience.Position</p>
+<p>Duration: @Model.WorkExperience.Duration</p>
+<p>Responsibilities: @Model.WorkExperience.Responsibilities</p>
