@@ -28,7 +28,7 @@ namespace CVSampleApp.Controllers
                 Skills = new[] { "C#", ".NET", "ASP.NET", "SQL Server", "JavaScript" },
                 WorkExperience = new WorkExperience
                 {
-                    Company = "Tech Solutions Inc.",
+                    Company = "Balghari Solutions Inc.",
                     Position = "Senior Software Engineer",
                     Duration = "2018 - Present",
                     Responsibilities = "Developing and maintaining web applications using ASP.NET and C#."
